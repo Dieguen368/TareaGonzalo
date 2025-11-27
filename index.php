@@ -59,7 +59,7 @@ if($_SERVER["REQUEST_METHOD"] == "POST") {
 ?>
 
 <html>
-<link rel="stylesheet" href="<?= $modo ?>">
+
 <style>
 /* ============================
    ESTILOS GENERALES

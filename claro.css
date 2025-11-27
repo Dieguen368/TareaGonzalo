@@ -2,3 +2,21 @@ body{
 background-color: white;
 color: black;
 }
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background: #ffffff;
+}
+details {
+  margin: 20px 0;
+  padding: 12px;
+  border: 1px solid #ffffff;
+  border-radius: 8px;
+  background: #ffffff;
+}
+
+details summary {
+  font-weight: 700;
+  cursor: pointer;
+}

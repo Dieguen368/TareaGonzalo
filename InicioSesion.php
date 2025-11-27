@@ -36,7 +36,7 @@ $modo_css = "$modo.css";
   <title><?= $eduhabla["Web title"]?></title> 
 
   
-  <link rel="stylesheet" href="<?= $modo_css ?>">
+
 
   <style> 
 
@@ -46,15 +46,6 @@ $modo_css = "$modo.css";
   padding: 0 20px;
 }
 
-
-header {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  padding: 14px 0;
-  border-bottom: 1px solid #ddd;
-  background: #fff;
-}
 
 .left {
   display: flex;
@@ -95,7 +86,7 @@ nav a:hover {
 
 .lang-btn {
   padding: 6px 12px;
-  border: 1px solid #ccc;
+  border: 1px solid #ffffffff;
   background: #fff;
   border-radius: 6px;
   cursor: pointer;
@@ -138,18 +129,6 @@ h1 {
 }
 
 
-details {
-  margin: 20px 0;
-  padding: 12px;
-  border: 1px solid #ddd;
-  border-radius: 8px;
-  background: #fff;
-}
-
-details summary {
-  font-weight: 700;
-  cursor: pointer;
-}
 
 /* --- Footer --- */
 footer {
@@ -162,6 +141,7 @@ footer {
 }
 
   </style> 
+    <link rel="stylesheet" href="<?= $modo_css ?>">
 
 </head> 
 
